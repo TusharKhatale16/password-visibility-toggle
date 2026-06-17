@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-card">
+        <h1>Welcome Back</h1>
+        <p class="description">Sign in to continue to your account. Enter your email and password, then toggle visibility as needed.</p>
+
+        <form id="loginForm">
+            <label for="emailInput">Email</label>
+            <input id="emailInput" type="email" placeholder="name@example.com" aria-label="Email" required>
+
+            <div class="password-row">
+                <label for="passwordInput">Password</label>
+                <div class="input-wrapper">
+                    <input id="passwordInput" type="password" placeholder="Enter your password" aria-label="Password" required>
+                    <img id="toggleEye" src="img/hide.png" alt="Show password" title="Show password">
+                </div>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="login-footer">
+            <span class="author">Author: Tushat Khatale</span>
+            <span>Support: tusharkhatale16@gmail.com</span>
+        </div>
+
+        <p class="login-note">Need help? Use the email and password fields above. The eye icon will reveal or hide your password input.</p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
